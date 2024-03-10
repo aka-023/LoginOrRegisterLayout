@@ -1,0 +1,89 @@
+/* :root{
+    --col1: #104c91;
+    --col2: #efc9af;
+    --col3: #1f8ac0;
+}   */
+
+.head{
+    color: beige;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+body{
+    background-color: beige;
+}
+.container{     
+    display: flex;  
+    font-family: Roboto;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin: auto;
+    position:relative;
+    top:10vh;
+}
+.container_one{
+    width: 30vw;
+    height: 60vh;
+    display:flex;
+    border-radius: 20px;
+    flex-direction:column;
+    gap:5vh;
+    padding:3vh;
+    background:#2BAE66FF;
+    align-items: center; 
+    justify-content: center;
+}
+
+.container_two{
+    width: 30vw;
+    height: 60vh;
+    border-radius: 20px;
+    display:flex;
+    flex-direction:column;
+    gap:5vh;
+    padding:3vh;
+    background:#2BAE66FF;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="password"]{
+    padding: 3%;
+    width: 15vw;
+}
+input[type="email"]{
+    padding: 3%;
+    width: 15vw;
+}
+button{
+    font-weight: 550;
+    font-size: 1rem;
+    text-decoration:none;
+    border: none;
+    height: 5vh;
+    width: 5.5vw;
+    border-radius: 10px;
+    transition: 0.1s ease;
+}
+button:hover{
+    color: rgb(30, 122, 71);  
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    /* margin-right:34%; */
+}
+.zero{
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+}
+.two{
+    margin-top:7%;
+}
+.two button{
+    /* border-radius: 50%; */
+    
+}
